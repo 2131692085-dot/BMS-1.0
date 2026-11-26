@@ -1,0 +1,11 @@
+# Keil MDK 编译产物
+MDK-ARM/atguigu-project-bms/
+MDK-ARM/*.lst
+MDK-ARM/*.uvguix.*
+MDK-ARM/JLinkLog.txt
+MDK-ARM/EventRecorderStub.scvd
+
+# 备份与临时文件
+*.bak
+*.dep
+*.log
