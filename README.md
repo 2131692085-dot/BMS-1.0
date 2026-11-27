@@ -99,19 +99,19 @@ OV_TRIP_FULL = (OV - OFFSET) / GAIN        → 14 位 LSB 值
 ├── Core/                      # CubeMX 生成（GPIO/I2C/UART/HAL 配置）
 ├── Drivers/                   # ST HAL 库 + CMSIS
 ├── MDK-ARM/
-│   ├── atguigu-project-bms.uvprojx   # Keil 工程文件
+│   ├── stm32-bms.uvprojx   # Keil 工程文件
 │   ├── source/
 │   │   ├── App/               # 任务创建与调度入口
 │   │   ├── Com/               # 温度/SOC 查表算法
 │   │   ├── Int/BMS/           # BQ76920 驱动 + 寄存器定义
 │   │   └── Int/SCREEN/        # OLED 驱动 + 字库 + 界面
 │   └── thirdpart/FreeRTOS/    # 内核（heap_4、tasks 等）
-└── atguigu-project-bms.ioc    # CubeMX 工程配置
+└── stm32-bms.ioc    # CubeMX 工程配置
 ```
 
 ## 编译与烧录
 
-1. **Keil MDK** 打开 `MDK-ARM/atguigu-project-bms.uvprojx`（ARMCC5 编译器）
+1. **Keil MDK** 打开 `MDK-ARM/stm32-bms.uvprojx`（ARMCC5 编译器）
 2. Build（0 Error）→ Download（ST-Link / J-Link，目标 STM32F103）
 3. 调试串口 UART1，波特率见 `Core/Src/usart.c`；上电先打印 `BMS Project Start`，随后输出电芯电压 / 总压 / 电流 / 温度 / SOC
 

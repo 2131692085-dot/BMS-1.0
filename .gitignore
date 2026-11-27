@@ -1,5 +1,5 @@
 # Keil MDK 编译产物
-MDK-ARM/atguigu-project-bms/
+MDK-ARM/stm32-bms/
 MDK-ARM/*.lst
 MDK-ARM/*.uvguix.*
 MDK-ARM/JLinkLog.txt

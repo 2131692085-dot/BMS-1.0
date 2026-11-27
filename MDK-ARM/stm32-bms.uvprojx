@@ -7,7 +7,7 @@
 
   <Targets>
     <Target>
-      <TargetName>atguigu-project-bms</TargetName>
+      <TargetName>stm32-bms</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
       <uAC6>0</uAC6>
@@ -47,8 +47,8 @@
             <NotGenerated>0</NotGenerated>
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
-          <OutputDirectory>atguigu-project-bms\</OutputDirectory>
-          <OutputName>atguigu-project-bms</OutputName>
+          <OutputDirectory>stm32-bms\</OutputDirectory>
+          <OutputName>stm32-bms</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
@@ -755,7 +755,7 @@
       <component Cclass="CMSIS" Cgroup="CORE" Cvendor="ARM" Cversion="4.3.0" condition="CMSIS Core">
         <package name="CMSIS" schemaVersion="1.3" url="http://www.keil.com/pack/" vendor="ARM" version="4.5.0"/>
         <targetInfos>
-          <targetInfo name="atguigu-project-bms"/>
+          <targetInfo name="stm32-bms"/>
         </targetInfos>
       </component>
     </components>
@@ -765,7 +765,7 @@
   <LayerInfo>
     <Layers>
       <Layer>
-        <LayName>atguigu-project-bms</LayName>
+        <LayName>stm32-bms</LayName>
         <LayPrjMark>1</LayPrjMark>
       </Layer>
     </Layers>

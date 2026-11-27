@@ -1,3 +1,3 @@
 {
-    "cmake.sourceDirectory": "E:/embeded/course/workspace/bms/001-atguigu-project-bms-init/MDK-ARM/thirdpart/FreeRTOS/include"
+    "cmake.sourceDirectory": "${workspaceFolder}/thirdpart/FreeRTOS/include"
 }

@@ -3,8 +3,8 @@
  * Auto generated Run-Time-Environment Configuration File
  *      *** Do not modify ! ***
  *
- * Project: 'atguigu-project-bms' 
- * Target:  'atguigu-project-bms' 
+ * Project: 'stm32-bms' 
+ * Target:  'stm32-bms' 
  */
 
 #ifndef RTE_COMPONENTS_H
